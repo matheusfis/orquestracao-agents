@@ -1,0 +1,12 @@
+{
+  // Mescle apenas as chaves desejadas no settings.json; não substitua o existente.
+  // Evita árvores recursivas de agentes no fluxo VS Code documentado.
+  "chat.subagents.allowInvocationsFromSubagents": false
+
+  // Opcional se abrir um pacote do monorepo em vez da raiz:
+  // , "chat.useCustomizationsInParentRepositories": true
+
+  // Opcional, Agents Window + Dev Container já configurado no host remoto:
+  // , "chat.agentHost.devContainer.enabled": true
+  // Não reduz tokens por si só; requer ambiente/Docker compatíveis.
+}
